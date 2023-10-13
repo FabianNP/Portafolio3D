@@ -11,14 +11,16 @@ const App = () => {
           <Navbar/>
           <Hero/>
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+        <div className="flex flex-col items-center">
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+          <Feedbacks />
+          <div className="relative z-0">
+            <Contact />
+            <StarsCanvas />
+          </div>
         </div>
       </div>
     </BrowserRouter>
